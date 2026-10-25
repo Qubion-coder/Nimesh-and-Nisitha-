@@ -422,9 +422,9 @@ export function EnvelopeOpening({ onComplete, onMusicStart }: { onComplete: () =
               </div>
 
               <h1 className="text-names">
-                Isuri
+                Nimeshika
                 <span className="text-ampersand">&</span>
-                &nbsp;Duvindu
+                &nbsp;Nisitha
               </h1>
 
               <div className="divider">
@@ -434,10 +434,10 @@ export function EnvelopeOpening({ onComplete, onMusicStart }: { onComplete: () =
               </div>
 
               <div className="text-details">
-                Request the honour of your presence<br />
-                <span className="text-date">Tuesday 05 January 2027 At 09:00 AM</span>
-                <span className="text-church">Hilton Colombo</span><br />
-                Colombo
+                Joyfully invite you to witness<br />the Sacrament of Holy Matrimony<br />
+                <span className="text-date">Friday 04 December 2026 At 4:00 PM</span>
+                <span className="text-church">St. Lazarus Church</span><br />
+                Kurukulawa, Ragama
               </div>
             </div>
           </div>
