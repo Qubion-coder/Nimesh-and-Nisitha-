@@ -23,7 +23,7 @@ export const Hero: React.FC = () => {
       >
         <img
           src="/x.jpg"
-          alt="Nimeshika and Nisitha"
+          alt="Nisitha and Nimeshika"
           className="w-full h-full object-cover opacity-85"
           style={{ objectPosition: 'center 15%' }}
         />
@@ -64,10 +64,10 @@ export const Hero: React.FC = () => {
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[140%] bg-white/40 blur-[50px] sm:blur-[80px] rounded-full pointer-events-none" />
 
             <h1 className="relative text-6xl sm:text-[6rem] lg:text-[8rem] font-display text-stone-800 leading-[1.1] sm:leading-[0.9] drop-shadow-sm">
-              Nimeshika <br className="sm:hidden" />
+              Nisitha <br className="sm:hidden" />
               <span className="text-brand-beige-deep italic font-light mx-2 sm:mx-6 text-5xl sm:text-[6rem] lg:text-[8rem] inline-block -translate-y-2 sm:-translate-y-6">&</span>
               <br className="sm:hidden" />
-              &nbsp;Nisitha
+              &nbsp;Nimeshika
             </h1>
           </div>
 

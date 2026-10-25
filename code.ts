@@ -1,5 +1,5 @@
 /**
- * Nimeshika & Nisitha – Wedding Invitation backend (Google Apps Script)
+ * Nisitha & Nimeshika – Wedding Invitation backend (Google Apps Script)
  *
  * Paste this whole file into Extensions > Apps Script (Code.gs) of the sheet:
  * https://docs.google.com/spreadsheets/d/1o8b_rqi40qaZLB_rTmuoEM9C8Ff-7a03VbTD0iiCsyU/edit

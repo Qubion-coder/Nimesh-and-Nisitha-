@@ -30,7 +30,7 @@ export const CeremonyDetails: React.FC = () => {
             </h2>
 
             <p className="text-stone-500/90 font-serif text-lg sm:text-xl leading-relaxed mb-16 max-w-lg">
-              With the grace of God and the love of their families, Nimeshika & Nisitha joyfully invite you to witness the Sacrament of Holy Matrimony.
+              With the grace of God and the love of their families, Nisitha & Nimeshika joyfully invite you to witness the Sacrament of Holy Matrimony.
             </p>
 
             {/* Premium Timeline */}

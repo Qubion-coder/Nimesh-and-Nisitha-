@@ -421,9 +421,9 @@ export function EnvelopeOpening({ onComplete, onMusicStart }: { onComplete: () =
               </div>
 
               <h1 className="text-names">
-                Nimeshika
+                Nisitha
                 <span className="text-ampersand">&</span>
-                &nbsp;Nisitha
+                &nbsp;Nimeshika
               </h1>
 
               <div className="divider">
