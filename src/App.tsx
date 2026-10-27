@@ -87,6 +87,29 @@ export default function App() {
         <CeremonyDetails />
       </div>
 
+      {/* Couple Portrait */}
+      <div className="pb-24 sm:pb-32 bg-white relative">
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1.2, ease: "easeOut" }}
+          className="max-w-md sm:max-w-lg mx-auto px-6"
+        >
+          <div className="relative">
+            <div className="absolute -inset-3 sm:-inset-4 border-[2px] border-brand-beige/30 rounded-[2rem] sm:rounded-[2.5rem] translate-x-3 translate-y-3 sm:translate-x-5 sm:translate-y-5 pointer-events-none" />
+            <div className="relative rounded-[2rem] sm:rounded-[2.5rem] overflow-hidden border-[6px] sm:border-[8px] border-white shadow-[0_20px_50px_rgba(176,137,104,0.2)] bg-white">
+              <img
+                src="/e.jpeg"
+                alt="Nisitha and Nimeshika"
+                loading="lazy"
+                className="w-full h-auto block"
+              />
+            </div>
+          </div>
+        </motion.div>
+      </div>
+
       <div className="py-24 sm:py-32 bg-gradient-to-b from-white via-brand-champagne/30 to-brand-ivory relative">
         <Location />
       </div>
