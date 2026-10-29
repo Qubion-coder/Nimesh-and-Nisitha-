@@ -4,7 +4,7 @@ import { Church, PartyPopper } from 'lucide-react';
 
 const events = [
   { time: '4:00 PM', title: 'Holy Mass & Wedding Ceremony', icon: Church, desc: 'St. Lazarus Church, Kurukulawa, Ragama' },
-  { time: '7:00 PM', title: 'Wedding Reception', icon: PartyPopper, desc: 'Avendra Gardens, Negombo' },
+  { time: '7:00 PM', title: 'Wedding Reception', icon: PartyPopper, desc: 'Centrium Ballroom, Avenra Gardens Hotel, Negombo' },
 ];
 
 export const Timeline: React.FC = () => {

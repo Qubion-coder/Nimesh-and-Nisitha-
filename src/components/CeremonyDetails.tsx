@@ -91,7 +91,7 @@ export const CeremonyDetails: React.FC = () => {
               <div className="flex-1">
                 <h4 className="font-display text-2xl sm:text-4xl text-stone-800 mb-1 sm:mb-2 tracking-tight">Wedding Reception</h4>
                 <p className="text-stone-500/90 font-serif text-sm sm:text-base leading-relaxed">
-                  And thereafter, to raise a glass, share a smile, and celebrate the beginning of their forever at Avendra Gardens, Negombo.
+                  And thereafter, to raise a glass, share a smile, and celebrate the beginning of their forever at the Centrium Ballroom, Avenra Gardens Hotel, Negombo.
                 </p>
               </div>
               <div className="inline-block px-4 sm:px-6 py-2 sm:py-3 bg-brand-champagne rounded-full border border-brand-beige/30 shadow-sm self-start sm:self-center flex-shrink-0">

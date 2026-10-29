@@ -7,15 +7,16 @@ const venues = [
     label: 'Holy Mass · 4:00 PM',
     name: 'St. Lazarus Church',
     area: 'Kurukulawa, Ragama',
-    mapUrl: `https://maps.google.com/maps?q=St.+Lazarus+Church+Kurukulawa+Ragama&t=&z=15&ie=UTF8&iwloc=&output=embed`,
-    liveLocationUrl: 'https://maps.app.goo.gl/HyiTsdjRZY9SvaUA8',
+    mapUrl: 'https://maps.google.com/maps?q=7.0160449,79.9312663&z=16&output=embed',
+    // Full Maps URLs: maps.app.goo.gl short links fail in iOS Safari (about:invalid#zClosurez)
+    liveLocationUrl: "https://www.google.com/maps/place/St.+Lazarus'+Church+-+Kurukulawa/@7.0160449,79.9286914,17z/data=!3m1!4b1!4m6!3m5!1s0x3ae2f83aa125ca33:0x5e0929fa20a46aa9!8m2!3d7.0160449!4d79.9312663!16s%2Fg%2F11gzt7lsr",
   },
   {
     label: 'Reception · 7:00 PM',
-    name: 'Avendra Gardens',
-    area: 'Negombo',
-    mapUrl: `https://maps.google.com/maps?q=Avendra+Gardens+Negombo&t=&z=15&ie=UTF8&iwloc=&output=embed`,
-    liveLocationUrl: 'https://maps.app.goo.gl/R7558a4ewAuuFsWZA',
+    name: 'Centrium Ballroom',
+    area: 'Avenra Gardens Hotel, Negombo',
+    mapUrl: 'https://maps.google.com/maps?q=7.2175792,79.8554087&z=16&output=embed',
+    liveLocationUrl: 'https://www.google.com/maps/place/Avenra+Gardens+Hotel+Negombo/@7.2175792,79.8528338,17z/data=!4m6!3m5!1s0x3ae2eec1cf287c89:0xe14018d2425ce2f2!8m2!3d7.2175792!4d79.8554087!16s%2Fg%2F11cnsfsnjt',
   },
 ];
 
@@ -126,6 +127,7 @@ export const Location: React.FC = () => {
               allowFullScreen={true}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
+              sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"
               className="absolute inset-0 w-full h-full object-cover grayscale-[30%] group-hover/map:grayscale-0 transition-all duration-1000 ease-in-out"
             />
 
